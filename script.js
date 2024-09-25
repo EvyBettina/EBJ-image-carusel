@@ -7,6 +7,7 @@ let allImages = document.querySelectorAll(".carusell img");
 function showImage(imageIndex) {}
 
 function moveImage(offset) {
+  console.log("funksjon kjører")
   // Regn ut hvilket bilde som blir neste
   let newIndex = currentImage + offset;
   let totalImages = allImages.length - 1;
